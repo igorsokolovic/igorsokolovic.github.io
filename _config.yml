@@ -13,7 +13,7 @@ title                    : "Igor's personal pages"
 title_separator          : "-"
 name                     : &name "Igor Sokolovic"
 description              : &description "personal description lets see this"
-url                      : "igorsokolovic.github.io"
+url                      : #"igorsokolovic.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : #"academicpages/academicpages.github.io"
 
