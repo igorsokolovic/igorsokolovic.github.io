@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Igor's personal webside"
+title: "Igor's personal website"
 author_profile: true
 redirect_from: 
   - /about/
