@@ -9,10 +9,6 @@ redirect_from:
 
 Hi!
 
-I am testing out the commit here.
-
-and once again
-
 Thank you for visiting my homepage. 
 It is still in very early stage of development, and I will update it in the coming months. 
 
