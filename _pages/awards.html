@@ -1,0 +1,107 @@
+---
+layout: archive
+title: "Awards"
+permalink: /awards/
+author_profile: true
+---
+
+<style>
+/* Scoped to the Awards overview page: does not affect Talks or Blog Posts. */
+.awards-list { margin-top: 1.25em; }
+.awards-list__link,
+.awards-list__link:visited {
+  display: flex;
+  align-items: center;
+  gap: 1.15em;
+  padding: 1.05em 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.28);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.awards-list__link:hover .awards-list__title,
+.awards-list__link:focus .awards-list__title {
+  color: #b22222;
+  text-decoration: underline;
+}
+.awards-list__image,
+.awards-list__placeholder {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 150px;
+  width: 150px;
+  height: 105px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.awards-list__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  background: rgba(128, 128, 128, 0.08);
+  color: inherit;
+  font-size: 0.85em;
+  opacity: 0.65;
+}
+.awards-list__text { min-width: 0; }
+.awards-list__title {
+  display: block;
+  margin-bottom: 0.24em;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.awards-list__meta {
+  display: block;
+  font-size: 0.96em;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+.awards-list__summary {
+  display: block;
+  margin-top: 0.2em;
+  font-size: 0.94em;
+  line-height: 1.45;
+}
+@media (max-width: 480px) {
+  .awards-list__link { gap: 0.8em; }
+  .awards-list__image,
+  .awards-list__placeholder {
+    flex-basis: 100px;
+    width: 100px;
+    height: 76px;
+  }
+}
+</style>
+
+{% assign awards_sorted = site.awards | sort: "sort_date" | reverse %}
+
+<div class="awards-list">
+{% for award in awards_sorted %}
+  <a class="awards-list__link" href="{{ award.url | relative_url }}">
+    {% assign image_file = award.thumbnail | default: "" | strip %}
+    {% if image_file != "" %}
+      <img class="awards-list__image" src="{{ image_file | relative_url }}" alt="{{ award.title | escape }}" loading="lazy">
+    {% else %}
+      <span class="awards-list__placeholder" aria-hidden="true">Photo</span>
+    {% endif %}
+    <span class="awards-list__text">
+      <span class="awards-list__title">{{ award.title | escape }}</span>
+      {% if award.organization or award.display_date %}
+        <span class="awards-list__meta">
+          {% if award.organization %}{{ award.organization | escape }}{% endif %}
+          {% if award.organization and award.display_date %} &middot; {% endif %}
+          {% if award.display_date %}{{ award.display_date | escape }}{% endif %}
+        </span>
+      {% endif %}
+      {% if award.summary %}
+        <span class="awards-list__summary">{{ award.summary | escape }}</span>
+      {% endif %}
+    </span>
+  </a>
+{% endfor %}
+</div>
+
+{% if awards_sorted.size == 0 %}
+<p>No awards have been added yet.</p>
+{% endif %}
