@@ -1,5 +1,6 @@
 ---
 title: PtSe2 vdW single-crystal surfaces studied at the atomic scale with ncAFM
+display_title: "PtSe<sub>2</sub> vdW single-crystal surfaces studied at the atomic scale with ncAFM"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

@@ -1,5 +1,6 @@
 ---
 title: Adsorption of O2 on the rutile TiO2(110) surface revisited by nc-AFM
+display_title: "Adsorption of O<sub>2</sub> on the rutile TiO<sub>2</sub>(110) surface revisited by nc-AFM"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

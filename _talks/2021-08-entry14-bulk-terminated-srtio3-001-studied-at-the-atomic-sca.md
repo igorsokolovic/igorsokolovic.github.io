@@ -1,5 +1,6 @@
 ---
 title: Bulk-terminated SrTiO3(001) studied at the atomic scale with nc-AFM
+display_title: "Bulk-terminated SrTiO<sub>3</sub>(001) studied at the atomic scale with nc-AFM"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

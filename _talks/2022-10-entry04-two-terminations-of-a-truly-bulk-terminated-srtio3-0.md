@@ -1,5 +1,6 @@
 ---
 title: Two terminations of a truly bulk-terminated SrTiO3(001) host distinct two-dimensional electron gases
+display_title: "Two terminations of a truly bulk-terminated SrTiO<sub>3</sub>(001) host distinct two-dimensional electron gases"
 collection: talks
 type: Invited Talk
 talk_type: Invited Talk

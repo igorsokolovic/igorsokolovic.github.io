@@ -1,5 +1,6 @@
 ---
 title: Influence of Nb dopants on the polarization and screening on cleaved SrTiO3(001) surfaces
+display_title: "Influence of Nb dopants on the polarization and screening on cleaved SrTiO<sub>3</sub>(001) surfaces"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

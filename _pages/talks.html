@@ -6,9 +6,31 @@ author_profile: true
 ---
 
 {% comment %}
-Only month and year were supplied. Each entry has a numeric sort_date (YYYYMM)
-and a display_date (Month YYYY), avoiding invented presentation days.
+Talk metadata is stored in _talks/. Month-and-year sorting uses sort_date.
+display_title is optional and can contain <sub>...</sub> and <sup>...</sup>.
+Talk titles here are text, not links. Individual collection pages still exist.
 {% endcomment %}
+<style>
+  .talk-entry {
+    margin-bottom: 1.2em;
+  }
+  .talk-entry__title {
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 0.2em;
+  }
+  .talk-entry__details {
+    font-size: 0.96em;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .talk-entry__award {
+    font-size: 0.96em;
+    margin: 0.2em 0 0;
+  }
+</style>
+
 {% assign invited = site.talks | where: "type", "Invited Talk" | sort: "sort_date" | reverse %}
 {% assign contributed = site.talks | where: "type", "Contributed Talk" | sort: "sort_date" | reverse %}
 {% assign posters = site.talks | where: "type", "Contributed Poster" | sort: "sort_date" | reverse %}
@@ -16,42 +38,34 @@ and a display_date (Month YYYY), avoiding invented presentation days.
 
 <h2>Invited talks</h2>
 {% for talk in invited %}
-<div class="list__item">
-  <article class="archive__item">
-    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
-    <p class="page__meta">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
-    {% if talk.award %}<p><strong>{{ talk.award | escape }}</strong></p>{% endif %}
-  </article>
-</div>
+<article class="talk-entry">
+  <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
+  <p class="talk-entry__details">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+  {% if talk.award %}<p class="talk-entry__award"><strong>{{ talk.award | escape }}</strong></p>{% endif %}
+</article>
 {% endfor %}
 
 <h2>Contributed talks</h2>
 {% for talk in contributed %}
-<div class="list__item">
-  <article class="archive__item">
-    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
-    <p class="page__meta">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
-    {% if talk.award %}<p><strong>{{ talk.award | escape }}</strong></p>{% endif %}
-  </article>
-</div>
+<article class="talk-entry">
+  <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
+  <p class="talk-entry__details">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+  {% if talk.award %}<p class="talk-entry__award"><strong>{{ talk.award | escape }}</strong></p>{% endif %}
+</article>
 {% endfor %}
 
 <h2>Contributed posters</h2>
 {% for talk in posters %}
-<div class="list__item">
-  <article class="archive__item">
-    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
-    <p class="page__meta">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
-  </article>
-</div>
+<article class="talk-entry">
+  <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
+  <p class="talk-entry__details">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+</article>
 {% endfor %}
 
 <h2>Student seminars</h2>
 {% for talk in seminars %}
-<div class="list__item">
-  <article class="archive__item">
-    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
-    <p class="page__meta">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
-  </article>
-</div>
+<article class="talk-entry">
+  <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
+  <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+</article>
 {% endfor %}

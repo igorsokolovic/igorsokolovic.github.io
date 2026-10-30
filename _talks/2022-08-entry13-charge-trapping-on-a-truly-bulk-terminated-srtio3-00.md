@@ -1,5 +1,6 @@
 ---
 title: Charge trapping on a truly bulk-terminated SrTiO3(001)
+display_title: "Charge trapping on a truly bulk-terminated SrTiO<sub>3</sub>(001)"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

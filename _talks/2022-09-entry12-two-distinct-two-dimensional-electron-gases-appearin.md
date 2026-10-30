@@ -1,5 +1,6 @@
 ---
 title: Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO3(001)
+display_title: "Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO<sub>3</sub>(001)"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

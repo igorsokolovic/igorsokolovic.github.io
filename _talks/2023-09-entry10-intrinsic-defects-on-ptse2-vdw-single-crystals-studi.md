@@ -1,5 +1,6 @@
 ---
 title: Intrinsic defects on PtSe2 vdW single crystals studied with ncAFM
+display_title: "Intrinsic defects on PtSe<sub>2</sub> vdW single crystals studied with ncAFM"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

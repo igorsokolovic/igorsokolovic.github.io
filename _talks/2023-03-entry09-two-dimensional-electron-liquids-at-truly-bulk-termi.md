@@ -1,5 +1,6 @@
 ---
 title: Two-dimensional electron liquids at truly bulk-terminated SrTiO3
+display_title: "Two-dimensional electron liquids at truly bulk-terminated SrTiO<sub>3</sub>"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

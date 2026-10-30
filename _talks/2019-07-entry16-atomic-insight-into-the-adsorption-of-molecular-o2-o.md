@@ -1,5 +1,6 @@
 ---
 title: Atomic insight into the Adsorption of molecular O2 on rutile TiO2(110) (1×1) surface
+display_title: "Atomic insight into the Adsorption of molecular O<sub>2</sub> on rutile TiO<sub>2</sub>(110) (1×1) surface"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

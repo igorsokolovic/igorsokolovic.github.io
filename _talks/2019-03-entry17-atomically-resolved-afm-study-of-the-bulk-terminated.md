@@ -1,5 +1,6 @@
 ---
 title: Atomically-resolved AFM study of the bulk-terminated SrTiO3(001) (1×1) surface
+display_title: "Atomically-resolved AFM study of the bulk-terminated SrTiO<sub>3</sub>(001) (1×1) surface"
 collection: talks
 type: Contributed Talk
 talk_type: Contributed Talk

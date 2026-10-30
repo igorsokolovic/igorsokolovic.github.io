@@ -1,5 +1,6 @@
 ---
 title: Truly bulk-terminated, cleaved SrTiO3(001)(1×1) surfaces studied at the atomic scale via ncAFM
+display_title: "Truly bulk-terminated, cleaved SrTiO<sub>3</sub>(001)(1×1) surfaces studied at the atomic scale via ncAFM"
 collection: talks
 type: Invited Talk
 talk_type: Invited Talk
