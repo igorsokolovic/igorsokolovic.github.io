@@ -9,9 +9,9 @@ display_date: September 2022
 venue: ECOSS Conference
 location: Luxembourg, Luxembourg
 permalink: /talks/2022-09-entry12-two-distinct-two-dimensional-electron-gases-appearin/
-award: ECOSS Prize for Best Oral Presentation
+award: <span style="color: #b22222;">  awarded the ECOSS Prize for Best Oral Presentation </span>
 ---
 
 Contributed Talk at **ECOSS Conference**, Luxembourg, Luxembourg (September 2022).
 
-**Award:** <span style="color: #b22222;">awarded the ECOSS Prize for the Best Oral Presentation.</span>
+**Award:** ECOSS Prize for the Best Oral Presentation.
