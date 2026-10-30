@@ -28,9 +28,12 @@ Talk titles here are text, not links. Individual collection pages still exist.
     line-height: 1.5;
     margin: 0;
   }
-  .talk-entry__award {
+  .talk-entry__note {
     font-size: 0.96em;
     margin: 0.2em 0 0;
+  }
+  .talk-entry__note p {
+    margin: 0;
   }
 </style>
 
@@ -44,7 +47,7 @@ Talk titles here are text, not links. Individual collection pages still exist.
 <article class="talk-entry">
   <h3 class="talk-entry__title">{{ forloop.index }}. {{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
   <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %} · {{ talk.display_date | escape }}</p>
-  {% if talk.award %}<p class="talk-entry__award"><strong>{{ talk.award | escape }}</strong></p>{% endif %}
+  {% if talk.note %}<div class="talk-entry__note">{{ talk.note | markdownify }}</div>{% endif %}
 </article>
 {% endfor %}
 
@@ -53,7 +56,7 @@ Talk titles here are text, not links. Individual collection pages still exist.
 <article class="talk-entry">
   <h3 class="talk-entry__title">{{ forloop.index }}. {{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
   <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %} · {{ talk.display_date | escape }}</p>
-  {% if talk.award %}<p class="talk-entry__award"><strong>{{ talk.award | escape }}</strong></p>{% endif %}
+  {% if talk.note %}<div class="talk-entry__note">{{ talk.note | markdownify }}</div>{% endif %}
 </article>
 {% endfor %}
 
