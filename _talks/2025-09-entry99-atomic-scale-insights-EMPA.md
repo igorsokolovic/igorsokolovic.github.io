@@ -12,7 +12,7 @@ sort\_date: 202508
 display\_date: August 2025
 venue: EMPA Dübendorf
 location: Zürich, Switzerland
-permalink: /talks/2025-09-newEntry-atomic-scale-insights-EMPA/
+permalink: /talks/2025-09-entry99-atomic-scale-insights-EMPA/
 ---
 
 Invited Talk at EMPA Dübendorf, Zürich, Switzerland (August 2025).
