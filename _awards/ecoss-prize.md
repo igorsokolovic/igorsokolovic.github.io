@@ -17,12 +17,14 @@ The **ECOSS Prize for Best Oral Presentation** was awarded at the ECOSS Conferen
 
 **Presentation:** "Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO<sub>3</sub>(001)".
 
-<!-- To show award photographs, upload them to images/awards/ and then
-     remove the comment markers around image lines like these:
+## Photographs
 
-![ECOSS award certificate]({{ '/images/awards/ecoss-photo-1.jpg' | relative_url }})
+![ECOSS award photograph 1]({{ '/images/awards/ecoss-photo1.png' | relative_url }})
 
-![ECOSS award photograph]({{ '/images/awards/ecoss-photo-2.jpg' | relative_url }})
--->
+![ECOSS award photograph 2]({{ '/images/awards/ecoss-photo2.png' | relative_url }})
+
+## Award Certificate
+
+![ECOSS award certificate]({{ '/images/awards/ecoss-certificate.png' | relative_url }})
 
 [← Back to Awards]({{ '/awards/' | relative_url }})
