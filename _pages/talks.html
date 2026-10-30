@@ -11,6 +11,9 @@ display_title is optional and can contain <sub>...</sub> and <sup>...</sup>.
 Talk titles here are text, not links. Individual collection pages still exist.
 {% endcomment %}
 <style>
+  h2.talk-section-title {
+    color: #b22222 !important;
+  }
   .talk-entry {
     margin-bottom: 1.2em;
   }
@@ -36,36 +39,35 @@ Talk titles here are text, not links. Individual collection pages still exist.
 {% assign posters = site.talks | where: "type", "Contributed Poster" | sort: "sort_date" | reverse %}
 {% assign seminars = site.talks | where: "type", "Student Seminars" %}
 
-<h2>Invited talks</h2>
+<h2 class="talk-section-title">Invited talks</h2>
 {% for talk in invited %}
 <article class="talk-entry">
   <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
-  <p class="talk-entry__details">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+  <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %} · {{ talk.display_date | escape }}</p>
   {% if talk.award %}<p class="talk-entry__award"><strong>{{ talk.award | escape }}</strong></p>{% endif %}
 </article>
 {% endfor %}
 
-<h2>Contributed talks</h2>
+<h2 class="talk-section-title">Contributed talks</h2>
 {% for talk in contributed %}
 <article class="talk-entry">
   <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
-  <p class="talk-entry__details">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+  <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %} · {{ talk.display_date | escape }}</p>
   {% if talk.award %}<p class="talk-entry__award"><strong>{{ talk.award | escape }}</strong></p>{% endif %}
 </article>
 {% endfor %}
 
-<h2>Contributed posters</h2>
-{% for talk in posters %}
-<article class="talk-entry">
-  <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
-  <p class="talk-entry__details">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
-</article>
-{% endfor %}
-
-<h2>Student seminars</h2>
+{% comment %}Undated student seminars are intentionally listed last among contributed talks.{% endcomment %}
 {% for talk in seminars %}
 <article class="talk-entry">
   <h3 class="talk-entry__title">{{ talk.display_title | default: talk.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h3>
   <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+</article>
+{% endfor %}
+
+<h2 class="talk-section-title">Contributed posters</h2>
+{% for talk in posters %}
+<article class="talk-entry">
+  <p class="talk-entry__details">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %} · {{ talk.display_date | escape }}</p>
 </article>
 {% endfor %}
