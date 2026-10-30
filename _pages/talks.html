@@ -5,12 +5,53 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% comment %}
+Only month and year were supplied. Each entry has a numeric sort_date (YYYYMM)
+and a display_date (Month YYYY), avoiding invented presentation days.
+{% endcomment %}
+{% assign invited = site.talks | where: "type", "Invited Talk" | sort: "sort_date" | reverse %}
+{% assign contributed = site.talks | where: "type", "Contributed Talk" | sort: "sort_date" | reverse %}
+{% assign posters = site.talks | where: "type", "Contributed Poster" | sort: "sort_date" | reverse %}
+{% assign seminars = site.talks | where: "type", "Student Seminars" %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<h2>Invited talks</h2>
+{% for talk in invited %}
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
+    <p class="page__meta">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+    {% if talk.award %}<p><strong>{{ talk.award | escape }}</strong></p>{% endif %}
+  </article>
+</div>
+{% endfor %}
 
-{% endif %}
+<h2>Contributed talks</h2>
+{% for talk in contributed %}
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
+    <p class="page__meta">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+    {% if talk.award %}<p><strong>{{ talk.award | escape }}</strong></p>{% endif %}
+  </article>
+</div>
+{% endfor %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<h2>Contributed posters</h2>
+{% for talk in posters %}
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
+    <p class="page__meta">{{ talk.display_date | escape }} · {{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+  </article>
+</div>
+{% endfor %}
+
+<h2>Student seminars</h2>
+{% for talk in seminars %}
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title"><a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></h3>
+    <p class="page__meta">{{ talk.venue | escape }}{% if talk.location %}, {{ talk.location | escape }}{% endif %}</p>
+  </article>
+</div>
 {% endfor %}
