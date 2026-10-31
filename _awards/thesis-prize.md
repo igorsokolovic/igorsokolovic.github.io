@@ -1,5 +1,5 @@
 ---
-title: "Best PhD Thesis awarded by the Austrian Physical Society - ÖPG"
+title: "Best PhD Thesis"
 collection: awards
 layout: single
 author_profile: true
@@ -7,7 +7,7 @@ share: false
 comments: false
 sort_date: 202309
 display_date: "September 2023"
-organization: "Austrian Physical Society"
+organization: "Austrian Physical Society ÖPG"
 summary: "Prize for the best PhD Thesis."
 thumbnail: "/images/awards/thesis-mug.jpg"  
 permalink: /awards/thesis-prize/
