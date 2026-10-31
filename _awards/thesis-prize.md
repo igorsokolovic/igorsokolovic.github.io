@@ -24,6 +24,8 @@ My thesis, "Complex oxide surfaces studied at the atomic scale with AFM/STM and 
 
 A big thank you goes to my supervisors, Prof. Martin Setvín and Prof. Ulrike Diebold, as well as everyone else involved in my supervision over the years. Their guidance, support, and many scientific discussions played an important role in shaping both the thesis and my development as a researcher. I'm also grateful to all the colleagues and collaborators who contributed to the work.
 
+As part of the award ceremony, I also had the opportunity to give a talk about my research to a younger audience, including high school and graduate students. It was a particularly nice part of the event, and I hope I managed to spark some curiosity and perhaps inspire a few future researchers to pursue science themselves.
+
 For anyone interested in the research, the full PhD thesis is available [here](https://repositum.tuwien.at/handle/20.500.12708/18545).
 
 It was a lovely occasion to receive the award in Basel and a nice way to mark the end of an important chapter of my scientific career.
