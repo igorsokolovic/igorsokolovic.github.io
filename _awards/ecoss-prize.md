@@ -19,15 +19,17 @@ ECOSS Prize for Best Oral Presentation
 
 September 2022 | Luxembourg
 
-In September 2022, I had the pleasure of attending the 35th European Conference on Surface Science (ECOSS 2022) at the University of Luxembourg, where I was awarded the first prize for Best Oral Presentation, sponsored by SPECS.
+At the 35th European Conference on Surface Science (ECOSS 2022), held at the University of Luxembourg, I was delighted to receive the first prize for Best Oral Presentation. ECOSS is one of Europe's leading conferences dedicated to surface science, bringing together researchers working on the physics and chemistry of surfaces and interfaces.
 
-The award was for my talk *Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO₃(001)*. It was really nice to see our work recognized in an auditorium of around 100 scientists, especially given the many excellent talks presented at the conference. Congratulations also to the two second-prize winners!
+The award was sponsored by SPECS, a leading manufacturer of high-precision scientific instrumentation for surface science.
 
-The work I presented was later published in Nature Communications ([DOI: 10.1038/s41467-025-59258-4](https://www.nature.com/articles/s41467-025-59258-4)), and I've written more about the science in a separate blog post.
+The prize was awarded for my talk "Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO₃(001)." It was really nice to see our work recognized in an auditorium of around 100 scientists, especially given the many excellent talks presented at the conference. Congratulations also to the two second-prize winners!
+
+The work I presented was later published in Nature Communications (DOI: 10.1038/s41467-025-59258-4), and I've written more about the science in a separate blog post.
 
 A big thank you to everyone involved in this project, particularly the team at the Bloch beamline at MAX IV Laboratory, where much of the experimental work took place. This was very much a team effort, and it was great to have our work recognized in this way.
 
-Finally, thanks to the organizers for putting together such an enjoyable conference. It was a great opportunity to visit Luxembourg, catch up with colleagues, and have some interesting scientific discussions along the way!
+Finally, thanks to the organizers for putting together such an enjoyable conference. It was a great opportunity to visit Luxembourg, catch up with colleagues, and have fruitful scientific discussions along the way!
 
 ## Photographs
 
