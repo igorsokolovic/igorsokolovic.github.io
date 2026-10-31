@@ -8,9 +8,10 @@ comments: false
 sort_date: 202602
 hide_date: true
 display_date: "February 2026"
+order: 5
 organization: "Horizon Europe"
 summary: "High quality proposal"
-thumbnail: "/images/awards/msca-pf-thumb.jpg"  
+thumbnail: "/images/awards/MSCA-PF-thumb.jpg"  
 permalink: /awards/msca-seal/
 ---
 
