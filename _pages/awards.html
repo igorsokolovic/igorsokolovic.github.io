@@ -74,7 +74,7 @@ author_profile: true
 }
 </style>
 
-{% assign sorted_awards = site.awards | sort: "order" %}
+{% assign awards_sorted = site.awards | sort: "order" %}
 
 <div class="awards-list">
 {% for award in awards_sorted %}
