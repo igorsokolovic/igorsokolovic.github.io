@@ -6,6 +6,7 @@ author_profile: true
 share: false
 comments: false
 sort_date: 202209
+hide_date: true
 display_date: "September 2022"
 organization: "ECOSS Conference, Luxembourg"
 summary: "Prize for the best oral presentation. *Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO₃(001)*"

@@ -6,6 +6,7 @@ author_profile: true
 share: false
 comments: false
 sort_date: 202309
+hide_date: true
 display_date: "March 2024"
 organization: "Austrian Academy of Sciences ÖAW"
 summary: "Standalone research grant."

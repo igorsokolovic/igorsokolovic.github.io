@@ -6,6 +6,7 @@ author_profile: true
 share: false
 comments: false
 sort_date: 202309
+hide_date: true
 display_date: "September 2023"
 organization: "Austrian Physical Society ÖPG"
 summary: "Prize for the best PhD Thesis."
