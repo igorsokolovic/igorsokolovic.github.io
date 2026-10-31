@@ -11,7 +11,7 @@ display_date: "September 2023"
 order: 2
 organization: "Austrian Physical Society ÖPG"
 summary: "Prize for the best PhD Thesis."
-thumbnail: "/images/awards/thesis-mug.jpg"  
+thumbnail: "/images/awards/thesisAward-certificate.png"  
 permalink: /awards/thesis-prize/
 ---
 
@@ -34,13 +34,13 @@ It was a lovely occasion to receive the award in Basel and a nice way to mark th
 
 ## Photographs
 
-![Thesis award photograph 1]({{ '/images/awards/thesis-stage.jpg' | relative_url }})
+![Thesis award photograph 1]({{ '/images/awards/thesisAward-stage.jpg' | relative_url }})
 
-![Thesis award photograph 2]({{ '/images/awards/thesis-mug.jpg' | relative_url }})
+![Thesis award photograph 2]({{ '/images/awards/thesisAward-mug.jpg' | relative_url }})
 
 ## Award Certificate
 
-![ECOSS award certificate]({{ '/images/awards/ecoss-certificate.png' | relative_url }})
+![ECOSS award certificate]({{ '/images/awards/thesisAward-certificate.png' | relative_url }})
 
 
 [← Back to Awards]({{ '/awards/' | relative_url }})
