@@ -11,7 +11,7 @@ display_date: "March 2024"
 order: 3
 organization: "Austrian Academy of Sciences ÖAW"
 summary: "Standalone research grant."
-thumbnail: "/images/awards/disruptive_innovation_c_shutterstock.jpg"  
+thumbnail: "/images/awards/OEAW_Logo.svg"  
 permalink: /awards/project-award/
 ---
 

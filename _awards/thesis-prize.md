@@ -11,7 +11,7 @@ display_date: "September 2023"
 order: 2
 organization: "Austrian Physical Society ÖPG"
 summary: "Prize for the best PhD Thesis."
-thumbnail: "/images/awards/thesisAward-certificate.png"  
+thumbnail: "/images/awards/oepg_logo.svg"  
 permalink: /awards/thesis-prize/
 ---
 
