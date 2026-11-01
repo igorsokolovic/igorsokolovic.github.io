@@ -43,17 +43,51 @@ SETUP:
   {% include pdf-figure.html src="/images/posts/OxygenChargeState/peroxo_adsorption.pdf" caption="Figure 1. An example scientific figure." %}
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, mi vel facilisis malesuada, nisl risus aliquet sem, et dapibus felis erat sed est. This introductory paragraph flows alongside the PDF figure on wider screens.
+## For the General Public
 
-Curabitur feugiat, purus in vulputate tempor, dolor nibh volutpat urna, eget sagittis lectus urna vitae magna. Integer eu neque efficitur, posuere sapien eu, elementum leo. **This is bold text**, and *this is italic text*.
+### When oxygen lands on a surface, how many electrons does it take?
 
-The figure can also be discussed using a [hyperlink to a publication](https://doi.org/10.1038/s41467-025-59258-4). Add additional paragraphs here to see how the text wraps alongside the figure.
+Oxygen is everywhere, and its interaction with surfaces is central to technologies ranging from catalysts to gas sensors. Yet even on titanium dioxide (TiO<sub>2</sub>), one of the most extensively studied metal oxides, a surprisingly simple question has remained controversial for decades: **How many electrons does an oxygen molecule take from the surface?**
+
+When oxygen molecules attach to TiO<sub>2</sub>, they can capture electrons from the material. Taking one electron forms a *superoxide* (O<sub>2</sub><sup>−</sup>), while taking two produces a *peroxide* (O<sub>2</sub><sup>2−</sup>). This seemingly small difference changes how the molecule binds to the surface and participates in chemical reactions.
+
+For years, experiments and theoretical predictions seemed to disagree about which state was preferred.
+
+To investigate this, I combined two approaches: **atomic force microscopy (AFM)**, allowing us to image individual oxygen molecules without disturbing them, and **quantum-mechanical calculations**, which reveal how electrons are exchanged between the surface and the molecules. By carrying out both the experiments and the calculations, I was able to connect what we observed with what happens at the electronic level.
+
+Our results showed that **oxygen prefers to capture two electrons, forming peroxide molecules**. The electrons come from defects in the material, revealing how imperfections beneath the surface can determine the chemistry taking place above it.
+
+But the story doesn't end there! We also investigated what happens when we deliberately add or remove electrons, heat the surface to trigger reactions between molecules, or illuminate it with ultraviolet light. These experiments, and the many interesting results they revealed, are described in our [paper published in PNAS](https://doi.org/10.1073/pnas.1922452117).
+
+I'm grateful to all my colleagues who contributed their expertise on both the experimental and theoretical sides of this work.
+
+And what about the earlier experimental evidence suggesting that oxygen takes only one electron? That's an interesting story of its own, which I'll explore in a separate post.
+
+
+---
+
 
 <div class="pdf-test-end"></div>
 
 ## Back to normal page width
 
-This paragraph appears below the figure, across the full article width.
+## For Scientists
+
+### Superoxo or peroxo? Resolving the charge state of oxygen on TiO<sub>2</sub>(110)
+
+The charge state of molecular oxygen adsorbed on rutile TiO<sub>2</sub>(110) has been debated for decades. While many experimental studies suggested singly charged superoxo (O<sub>2</sub><sup>−</sup>) species, theoretical calculations consistently favored doubly charged peroxo (O<sub>2</sub><sup>2−</sup>) molecules.
+
+To address this discrepancy, I performed both **noncontact atomic force microscopy (nc-AFM) experiments and density functional theory (DFT+U) calculations**, combining atomic-scale imaging with an analysis of the underlying electronic structure.
+
+Using oxygen-functionalized AFM tips, we resolved individual O<sub>2</sub> adsorption geometries without perturbing the molecules through electron injection. Comparison with DFT+U calculations showed that the observed geometries are consistent with the **peroxo state**, which is also energetically preferred under experimentally relevant conditions.
+
+The calculations further revealed the mechanism: the adsorbed molecules accept two electrons initially localized as small polarons on subsurface Ti atoms. This charge transfer modifies the molecular electronic structure, O–O bond length, and adsorption geometry. Although superoxo configurations can be stabilized in calculations, they are metastable relative to peroxo species.
+
+Beyond determining the charge state, we performed a range of additional experiments: controlled electron injection and removal, thermal annealing to investigate reactions between adsorbed species, and UV irradiation to probe the effects of photoexcited electrons and holes. Together, these measurements helped explain the remarkably rich chemistry of oxygen on TiO<sub>2</sub>(110).
+
+The full results are presented in our [PNAS publication](https://doi.org/10.1073/pnas.1922452117). I'm particularly grateful to all the colleagues who contributed to both the experimental and theoretical aspects of this work.
+
+The experimental evidence historically used to support the superoxo assignment, and how we were able to challenge that interpretation, deserves a closer look. I'll return to that question in a separate post.
 
 <!--
 OPTIONAL: For a separate full-width PDF elsewhere in your post, paste this
