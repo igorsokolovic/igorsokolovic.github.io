@@ -6,7 +6,7 @@ hide_date: true
 permalink: /posts/2020-03-03-o2rutile-switching/
 excerpt: "Same outcome, different kinetics."
 header:
-  teaser: "images/post-icons/science.svg"
+  teaser: "/images/post-icons/science.svg"
 ---
 
 
