@@ -25,7 +25,8 @@ The award was sponsored by SPECS, a leading manufacturer of high-precision scien
 
 The prize was awarded for my talk "Two distinct two-dimensional electron gases appearing at truly bulk-terminated, cleaved SrTiO₃(001)." It was really nice to see our work recognized in an auditorium of around 100 scientists, especially given the many excellent talks presented at the conference. Congratulations also to the two second-prize winners!
 
-The work I presented was later published in Nature Communications (DOI: 10.1038/s41467-025-59258-4), and I've written more about the science in a separate blog post.
+The work I presented was later published in Nature Communications ([DOI: 10.1038/s41467-025-59258-4](https://www.nature.com/articles/s41467-025-59258-4)), and I've written more about the science in a separate blog post.
+
 
 A big thank you to everyone involved in this project, particularly the team at the Bloch beamline at MAX IV Laboratory, where much of the experimental work took place. This was very much a team effort, and it was great to have our work recognized in this way.
 
