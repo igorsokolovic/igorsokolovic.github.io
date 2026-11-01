@@ -1,10 +1,12 @@
 ---
-title: "When oxygen changes its mind: Revisiting a decades-old experiment"
+title: "(video) One step or two? Why reaction kinetics can be misleading"
 date: 2020-03-01
 layout: single
 hide_date: true
 permalink: /posts/2020-03-03-o2rutile-switching/
-excerpt: "One molecule, two possible outcomes."
+excerpt: "Same outcome, different kinetics."
+header:
+  teaser: "images/post-icons/science.svg"
 ---
 
 
