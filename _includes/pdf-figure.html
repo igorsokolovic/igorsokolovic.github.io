@@ -1,0 +1,29 @@
+{% comment %}
+Reusable, opt-in PDF figure for Jekyll / Academic Pages.
+Usage inside a Markdown post:
+{% include pdf-figure.html src="/images/posts/my-post/figure.pdf" caption="Figure 1. Description." %}
+Optional: page=2 alt="Description of the figure"
+{% endcomment %}
+{% assign academic_pdf_url = include.src | relative_url %}
+<figure class="academic-inline-pdf" data-pdf-url="{{ academic_pdf_url | escape }}" data-pdf-page="{{ include.page | default: 1 }}">
+  <div class="academic-inline-pdf__stage">
+    <canvas hidden role="img" aria-label="{{ include.alt | default: 'PDF figure' | escape }}"></canvas>
+    <div class="academic-inline-pdf__status">
+      <span class="academic-inline-pdf__status-text">Loading PDF figure… </span>
+      <a href="{{ academic_pdf_url | escape }}">Open PDF</a>
+    </div>
+  </div>
+  {% if include.caption %}
+  <figcaption class="academic-inline-pdf__caption">{{ include.caption | escape }}</figcaption>
+  {% endif %}
+</figure>
+<style>
+  /* Scoped to these PDF figures: will not change the rest of your site's styling. */
+  figure.academic-inline-pdf { width: 100%; max-width: 100%; margin: 1.5em 0; }
+  .academic-inline-pdf__stage { width: 100%; }
+  .academic-inline-pdf canvas { display: block; max-width: 100%; height: auto; background-color: white; }
+  .academic-inline-pdf canvas[hidden] { display: none; }
+  .academic-inline-pdf__status { font-size: 0.9em; }
+  .academic-inline-pdf__caption { margin-top: 0.55em; font-size: 0.9em; line-height: 1.5; text-align: left; }
+</style>
+<script type="module" src="{{ '/assets/js/academic-pdf-figure.mjs' | relative_url }}"></script>
