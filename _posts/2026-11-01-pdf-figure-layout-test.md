@@ -40,7 +40,7 @@ SETUP:
 ## A scientific figure with text beside it
 
 <div class="pdf-test-float">
-  {% include pdf-figure.html src="/C:\Users\igrsk\Documents\GitHub\igorsokolovic.github.io\images\posts\OxygenChargeState\peroxo_adsorption.pdf" caption="Figure 1. An example scientific figure." %}
+  {% include pdf-figure.html src="\images\posts\OxygenChargeState\peroxo_adsorption.pdf" caption="Figure 1. An example scientific figure." %}
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt, mi vel facilisis malesuada, nisl risus aliquet sem, et dapibus felis erat sed est. This introductory paragraph flows alongside the PDF figure on wider screens.
