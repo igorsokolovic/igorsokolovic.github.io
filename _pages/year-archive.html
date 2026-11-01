@@ -15,5 +15,78 @@ redirect_from:
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include archive-single.html type="grid" %}
+  <article class="blog-row">
+
+  <div class="blog-row-text">
+    <h3>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+
+    {% if post.excerpt %}
+      <div class="blog-row-description">
+        {{ post.excerpt | markdownify }}
+      </div>
+    {% endif %}
+  </div>
+
+  <a class="blog-row-image" href="{{ post.url | relative_url }}">
+    {% assign thumbnail = post.header.teaser | default: "post-icons/science.svg" %}
+    {% assign thumbnail_path = thumbnail | prepend: "/images/" %}
+    <img src="{{ thumbnail_path | relative_url }}" alt="{{ post.title | escape }}">
+  </a>
+
+</article>
 {% endfor %}
+
+
+<style>
+.blog-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 20px 0;
+  border-bottom: 1px solid #8884;
+}
+
+.blog-row-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.blog-row-text h3 {
+  margin: 0 0 8px;
+  font-size: 1.1em;
+}
+
+.blog-row-description {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.blog-row-image {
+  flex: 0 0 145px;
+}
+
+.blog-row-image img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .blog-row {
+    gap: 12px;
+  }
+
+  .blog-row-image {
+    flex-basis: 95px;
+  }
+
+  .blog-row-image img {
+    height: 75px;
+  }
+}
+</style>
