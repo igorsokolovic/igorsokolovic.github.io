@@ -3,7 +3,7 @@ title: "When an oxygen molecule lands on a surface, how many electrons does it t
 date: 2020-03-01
 layout: single
 hide_date: true
-permalink: /posts/pdf-figure-layout-test/
+permalink: /posts/2020-03-01-o2rutile-chargestate/
 excerpt: "One or two?"
 ---
 
