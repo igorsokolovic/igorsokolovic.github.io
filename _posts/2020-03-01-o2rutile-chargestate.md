@@ -61,8 +61,6 @@ I'm grateful to all my colleagues who contributed their expertise on both the ex
 And what about the earlier experimental evidence suggesting that oxygen takes only one electron? That's an interesting story of its own, which I'll explore in a separate post.
 
 
----
-
 
 <div class="pdf-test-end"></div>
 

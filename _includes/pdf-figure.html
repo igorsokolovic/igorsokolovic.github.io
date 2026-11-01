@@ -14,7 +14,7 @@ Optional: page=2 alt="Description of the figure"
     </div>
   </div>
   {% if include.caption %}
-  <figcaption class="academic-inline-pdf__caption">{{ include.caption | escape }}</figcaption>
+<figcaption class="academic-inline-pdf__caption">{{ include.caption | markdownify }}</figcaption>
   {% endif %}
 </figure>
 <style>
