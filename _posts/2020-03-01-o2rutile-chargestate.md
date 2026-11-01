@@ -5,6 +5,8 @@ layout: single
 hide_date: true
 permalink: /posts/2020-03-01-o2rutile-chargestate/
 excerpt: "One or two?"
+header:
+  teaser: "post-icons/science.svg"
 ---
 
 <!--
