@@ -1,10 +1,10 @@
 ---
-title: "PDF Figure Layout Test"
-date: 2026-11-01
+title: "When an oxygen molecule lands on a surface, how many electrons does it take?"
+date: 2020-03-01
 layout: single
 hide_date: true
 permalink: /posts/pdf-figure-layout-test/
-excerpt: "Testing a PDF figure with text wrapped alongside it."
+excerpt: "One or two?"
 ---
 
 <!--
@@ -37,15 +37,12 @@ SETUP:
 .pdf-test-end { clear: both; }
 </style>
 
-## A scientific figure with text beside it
 
 <div class="pdf-test-float">
-  {% include pdf-figure.html src="/images/posts/OxygenChargeState/peroxo_adsorption.pdf" caption="Figure 1. An example scientific figure." %}
+  {% include pdf-figure.html src="/images/posts/OxygenChargeState/peroxo_adsorption.pdf" caption="**Atomic-scale imaging and calculations of oxygen on TiO<sub>2</sub>(110).** (A, B) AFM images showing individual oxygen molecules (circles) and atoms (squares) adsorbed on the surface after oxygen exposure at 10 K and 80 K, respectively. (C) DFT calculations showing the electronic structure of the clean, reduced surface, including two excess electrons associated with an oxygen vacancy. (D–G) Calculated structures and electronic properties of the different adsorbed oxygen species, revealing how electrons are transferred from the surface to the molecules. (H) Summary of the calculated adsorption energies, molecular bond lengths, charges, and spin states." %}
 </div>
 
 ## For the General Public
-
-### When oxygen lands on a surface, how many electrons does it take?
 
 Oxygen is everywhere, and its interaction with surfaces is central to technologies ranging from catalysts to gas sensors. Yet even on titanium dioxide (TiO<sub>2</sub>), one of the most extensively studied metal oxides, a surprisingly simple question has remained controversial for decades: **How many electrons does an oxygen molecule take from the surface?**
 
@@ -69,7 +66,6 @@ And what about the earlier experimental evidence suggesting that oxygen takes on
 
 <div class="pdf-test-end"></div>
 
-## Back to normal page width
 
 ## For Scientists
 
