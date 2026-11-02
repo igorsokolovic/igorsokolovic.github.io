@@ -1,9 +1,9 @@
 ---
 title: "Breaking symmetry to break a crystal: The hidden ferroelectricity of SrTiO<sub>3</sub>"
-date: 2022-03-01
+date: 2019-03-01
 layout: single
 hide_date: true
-permalink: /posts/2022-03-01-srtio3-first/
+permalink: /posts/2019-03-01-srtio3-first/
 excerpt: "When strain unlocks new crystal surfaces."
 header:
   teaser: "post-icons/science.svg"
