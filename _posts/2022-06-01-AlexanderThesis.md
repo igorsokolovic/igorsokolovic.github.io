@@ -42,7 +42,7 @@ Congratulations to **Alexander Hoheneder**, who successfully completed his Bache
 
 I had the pleasure of **co-supervising Alexander's thesis**, *"Effects of cleaving conditions on bulk-terminated SrTiO<sub>3</sub>(001) surfaces"*, which built upon my earlier research on the preparation and characterization of SrTiO<sub>3</sub> surfaces.
 
-The project explored how different experimental conditions influence the morphology of freshly cleaved strontium titanate surfaces. **Over six months of experimental work**, Alexander investigated SrTiO<sub>3</sub> crystals with varying niobium doping concentrations, cleaved them under different conditions, and characterized their surfaces using atomic force microscopy (AFM).
+The project explored how different experimental conditions influence the morphology of freshly cleaved strontium titanate surfaces. **Over six weeks of experimental work**, Alexander investigated SrTiO<sub>3</sub> crystals with varying niobium doping concentrations, cleaved them under different conditions, and characterized their surfaces using atomic force microscopy (AFM).
 
 A big thank you to **Alexander for all his hard work, careful measurements, and extensive data analysis** throughout the project. It was a pleasure to help guide his research and see him successfully complete this important milestone.
 

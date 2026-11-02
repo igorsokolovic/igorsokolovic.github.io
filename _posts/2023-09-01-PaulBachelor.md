@@ -33,9 +33,11 @@ header:
 .pdf-test-end { clear: both; }
 </style>
 
-*"Effects of surface treatments on two polymorphs of SiC"*, which investigated how different preparation methods influence the surface properties of silicon carbide (SiC).
+Congratulations to **Paul Schöngrundner**, who successfully completed his Bachelor's thesis in September 2023!
 
-Over **six months of experimental work**, Paul studied two SiC polymorphs, **4H-SiC and 6H-SiC**, subjected to various chemical treatments and high-temperature annealing. By combining **atomic force microscopy (AFM) and X-ray photoelectron spectroscopy (XPS)**, the project aimed to better understand surface cleanliness, chemical composition, and the effects of different preparation procedures.
+I had the pleasure of **co-supervising Paul's thesis**, *"Effects of surface treatments on two polymorphs of SiC"*, which investigated how different preparation methods influence the surface properties of silicon carbide (SiC).
+
+Over **six weeks of experimental work**, Paul studied two SiC polymorphs, **4H-SiC and 6H-SiC**, subjected to various chemical treatments and high-temperature annealing. By combining **atomic force microscopy (AFM) and X-ray photoelectron spectroscopy (XPS)**, the project aimed to better understand surface cleanliness, chemical composition, and the effects of different preparation procedures.
 
 A big thank you to **Paul for all his hard work, dedication to the experiments, and extensive data analysis** throughout the project. It was a pleasure working together and helping guide his research.
 
