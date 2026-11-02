@@ -139,12 +139,3 @@ This result is not restricted to equal probabilities of electron and hole captur
 For comparison, the figure also includes an irreversible two-step process involving a long-lived superoxo intermediate. Like the concerted mechanism, this model produces a quadratic dependence on hole concentration under the simulated conditions.
 
 The simulations demonstrate that **the apparent reaction order does not uniquely identify the underlying microscopic mechanism**. In particular, the linear photodesorption kinetics previously observed for oxygen on TiO<sub>2</sub>(110) are fully consistent with initially doubly charged peroxo molecules.
-
-<!--
-OPTIONAL: For a separate full-width PDF elsewhere in your post, paste this
-include outside the floating div (and outside this HTML comment):
-
-{% include pdf-figure.html src="/images/posts/pdf-figure-test/figure1.pdf" caption="Figure 2. Full-width version." %}
-
-To show a different PDF page, add page=2 to the include.
--->
