@@ -49,6 +49,7 @@ In our new publication, [*Duality and degeneracy lifting in two-dimensional elec
 
 **What we found was striking.**
 
+{% include pdf-figure.html src="/images/posts/srtio3-2dels-twoofthem/srtio3-2dels-twoofthem.pdf" caption="**One atomic layer, two distinct electron liquids.** Atomically resolved nc-AFM images of the (a) TiO<sub>2</sub> and (b) SrO terminations of cleaved SrTiO<sub>3</sub>(001), featuring 14% Sr adatoms and Sr vacancies, respectively. (c, d) SEM image and optical photograph of the complementary cleaved surface, with markers indicating the ARPES measurement positions. The opposite surface terminations are identified using the inverted SEM contrast. Despite differing by only one atomic layer, the two terminations exhibit strikingly different Fermi surfaces: (e) two rings on TiO<sub>2</sub> and (f) a single ring on SrO. The corresponding band dispersions (g, i) and momentum distribution curves (h) reveal the pronounced band splitting on TiO<sub>2</sub>, absent on SrO." %}
 
 
 The **TiO<sub>2</sub>-terminated surface is already metallic after cleaving**, while the **SrO-terminated surface initially behaves as a semiconductor** and develops its electron liquid only after oxygen vacancies are created.
