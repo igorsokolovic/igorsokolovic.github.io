@@ -50,4 +50,4 @@ Congratulations, Alexander, and all the best for what comes next!
 
 ## Bachelor's Thesis
 
-{% include pdf-figure.html src="/images/posts/AlexanderBachelor/AlexanderBachelor.pdf" caption="*Title page of Alexander Hoheneder's Bachelor's thesis, completed in June 2022.*" %}
+{% include pdf-figure.html src="/images/posts/alexanderBachelor/AlexanderBachelor.pdf" caption="*Title page of Alexander Hoheneder's Bachelor's thesis, completed in June 2022.*" %}
