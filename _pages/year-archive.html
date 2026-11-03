@@ -9,6 +9,23 @@ redirect_from:
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
+
+<div class="blog-intro" style="margin-bottom: 2em;">
+
+  <p>
+  Welcome! Here I share my research, explain interesting scientific ideas, and occasionally write about personal milestones and everyday life in science.
+  </p>
+
+  <p>
+  Some posts look back at earlier publications and achievements. I'm gradually building a record of my research, with the aim of sharing more frequent updates and glimpses of what happens behind the scenes.
+  </p>
+A note on AI: I use AI tools to help draft and edit posts, saving time while keeping the scientific content and responsibility my own. I'm aware and mindful of AI's environmental footprint, and I'm actively working on developing electronic components that could help make future computing more energy-efficient.
+  </p>
+I hope you'll find some enjoyable reads!
+  </p>
+
+</div>
+
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
