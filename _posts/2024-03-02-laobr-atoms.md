@@ -1,6 +1,6 @@
 ---
 title: "From tiny crystals to individual atoms: Exploring LaOBr"
-date: 2025-03-02
+date: 2024-03-02
 layout: single
 hide_date: true
 permalink: /posts/2024-03-02-laobr-atoms/
