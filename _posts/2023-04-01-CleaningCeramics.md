@@ -1,10 +1,10 @@
 ---
-title: "Building a UV lamp for a cryogenic microscope"
+title: "The not-so-simple art of cleaning for UHV"
 date: 2023-04-01
 layout: single
 hide_date: true
 permalink: /posts/2023-04-01-CleaningCeramics/
-excerpt: "Designing a dedicated light source for atomic-scale experiments."
+excerpt: "When clean is nowhere near clean enough."
 header:
   teaser: "post-icons/lablife.svg"
 ---
@@ -32,8 +32,6 @@ header:
 }
 .pdf-test-end { clear: both; }
 </style>
-
-## Clean Enough for Ultrahigh Vacuum? Not Quite!
 
 *The surprisingly long journey of a few ceramic insulators.*
 
