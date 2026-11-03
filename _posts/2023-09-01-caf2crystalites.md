@@ -42,38 +42,6 @@ CaF<sub>2</sub> is a wide-bandgap insulator with interesting optical and electro
 
 A crucial part of this process is preparing the evaporation source. After all, **a clean substrate won't help much if the material arriving at its surface is contaminated**.
 
-### First, Don't Trust the Surfaces as Delivered!
-
-Even high-purity materials can arrive with contaminated surfaces. During manufacturing, packaging, transport, and handling, the CaF<sub>2</sub> slabs are exposed to air and various sources of contamination.
-
-One useful approach is to **fracture the slabs into smaller pieces**, exposing fresh surfaces from the crystal interior. These newly exposed surfaces have had much less contact with the outside environment, making them preferable to the original surfaces.
-
-Breaking the slabs also allows us to select pieces with suitable dimensions for the evaporator.
-
-Of course, freshly fractured does not automatically mean perfectly clean. Careful handling and avoiding recontamination are equally important.
-
-### Next, Choose the Right Crucible
-
-The prepared CaF<sub>2</sub> pieces are loaded into a **tungsten crucible**.
-
-Why tungsten? Because evaporation sources often need to withstand very high temperatures. Tungsten has an exceptionally high melting point, making it useful for components exposed to demanding thermal conditions.
-
-Crucible selection is an important part of source preparation. Besides tolerating the operating temperature, the material must also be compatible with the substance being evaporated. Otherwise, unwanted reactions or contamination could compromise the deposited film.
-
-The amount and arrangement of material inside the crucible also matter. The source should be loaded securely, without overfilling or leaving loose fragments where they could interfere with the evaporator.
-
-### Finally, Prepare the Assembly for UHV
-
-Once loaded, the crucible is mounted onto its **high-voltage support rod**, which forms part of our electron-beam evaporator assembly.
-
-Before introducing any source into ultrahigh vacuum, cleanliness becomes especially important. The crucible, holder, and mounting components must be properly prepared, since contamination or outgassing can affect the chamber pressure and, ultimately, the quality of the experiment.
-
-After installation, the source must also be carefully conditioned according to the evaporator's operating procedure. Establishing a reproducible evaporation rate and checking the stability of the source are important before attempting controlled thin-film growth.
-
-And that's the journey from a few CaF<sub>2</sub> slabs to a prepared evaporation source!
-
-The three photographs show the progression from the material as received, through freshly fractured pieces loaded into the crucible, to the complete assembly ready for insertion into the evaporator.
-
 <div style="display: flex; gap: 12px; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 1.5em 0;">
 
   <figure style="flex: 1 1 30%; min-width: 170px; margin: 0;">
@@ -110,6 +78,40 @@ The three photographs show the progression from the material as received, throug
   </figure>
 
 </div>
+
+### First, Don't Trust the Surfaces as Delivered!
+
+Even high-purity materials can arrive with contaminated surfaces. During manufacturing, packaging, transport, and handling, the CaF<sub>2</sub> slabs are exposed to air and various sources of contamination.
+
+One useful approach is to **fracture the slabs into smaller pieces**, exposing fresh surfaces from the crystal interior. These newly exposed surfaces have had much less contact with the outside environment, making them preferable to the original surfaces.
+
+Breaking the slabs also allows us to select pieces with suitable dimensions for the evaporator.
+
+Of course, freshly fractured does not automatically mean perfectly clean. Careful handling and avoiding recontamination are equally important.
+
+### Next, Choose the Right Crucible
+
+The prepared CaF<sub>2</sub> pieces are loaded into a **tungsten crucible**.
+
+Why tungsten? Because evaporation sources often need to withstand very high temperatures. Tungsten has an exceptionally high melting point, making it useful for components exposed to demanding thermal conditions.
+
+Crucible selection is an important part of source preparation. Besides tolerating the operating temperature, the material must also be compatible with the substance being evaporated. Otherwise, unwanted reactions or contamination could compromise the deposited film.
+
+The amount and arrangement of material inside the crucible also matter. The source should be loaded securely, without overfilling or leaving loose fragments where they could interfere with the evaporator.
+
+### Finally, Prepare the Assembly for UHV
+
+Once loaded, the crucible is mounted onto its **high-voltage support rod**, which forms part of our electron-beam evaporator assembly.
+
+Before introducing any source into ultrahigh vacuum, cleanliness becomes especially important. The crucible, holder, and mounting components must be properly prepared, since contamination or outgassing can affect the chamber pressure and, ultimately, the quality of the experiment.
+
+After installation, the source must also be carefully conditioned according to the evaporator's operating procedure. Establishing a reproducible evaporation rate and checking the stability of the source are important before attempting controlled thin-film growth.
+
+And that's the journey from a few CaF<sub>2</sub> slabs to a prepared evaporation source!
+
+The three photographs show the progression from the material as received, through freshly fractured pieces loaded into the crucible, to the complete assembly ready for insertion into the evaporator.
+
+
 
 **The main lesson?** Preparing an evaporation source is already part of the thin-film growth experiment. Material purity, surface contamination, crucible compatibility, and careful handling all matter long before the first material reaches the substrate.
 
