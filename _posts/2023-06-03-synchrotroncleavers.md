@@ -7,7 +7,7 @@ permalink: /posts/2023-06-03-synchrotroncleavers/
 excerpt: "Why I brought an unreasonable number of cleaving devices to the synchrotron."
 header:
   teaser: "post-icons/lablife.svg"
-  teaser2: "posts/posts/SeveralCleaversSynchrotron/many-preview.png"
+  teaser2: "posts/SeveralCleaversSynchrotron/many-preview.png"
   teaser_position: "bottom-center"
   teaser_size: 20
 ---

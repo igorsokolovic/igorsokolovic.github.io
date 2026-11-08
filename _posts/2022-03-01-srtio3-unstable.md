@@ -7,6 +7,9 @@ permalink: /posts/2022-03-01-srtio3-unstable/
 excerpt: "Letting an excited surface relax."
 header:
   teaser: "post-icons/science.svg"
+  teaser2: "posts/srtio3-unstable/sro300.png"
+  teaser_position: "bottom-right"
+  teaser_size: 20
 ---
 
 
