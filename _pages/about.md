@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-This is my experiemntal version , remove the comments before switching to live version.
-
-<!--
 
 Hi, 
 
@@ -28,10 +25,9 @@ I'm always happy to exchange ideas, discuss science, or answer questions. If you
 
 ---
 
-I am grateful to the people who made this GitHub template that I am adapting. You can find their template at (https://github.com/academicpages/academicpages.github.io).
+I am grateful to the people who made this GitHub template that I am adapting. You can find their template at (https://github.com/academicpages/academicpages.github.io). I have extensively modified and optimized it for both desktop and mobile view.
 
 This website is a personal, non-commercial project intended primarily for education, science communication, and sharing my research.
 
 Unless otherwise stated, please seek my permission before reproducing original text or images from this website. Figures and other materials originating from scientific publications remain subject to the copyright and licensing terms of their respective rights holders. References to the original publications are provided wherever applicable.
 
--->

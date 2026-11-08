@@ -7,6 +7,8 @@ permalink: /posts/2023-09-01-caf2crystalites/
 excerpt: "Good thin-film growth starts with careful source preparation."
 header:
   teaser: "post-icons/educational.svg"
+  teaser2: "posts/caf2crystalites/caf2preview.png"
+  teaser_position: "bottom-right"
 ---
 
 
