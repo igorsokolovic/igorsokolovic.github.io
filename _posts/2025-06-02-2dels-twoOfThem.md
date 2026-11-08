@@ -7,6 +7,9 @@ permalink: /posts/2025-06-02-2dels-twoOfThem/
 excerpt: "Same crystal, strikingly different electronic states."
 header:
   teaser: "post-icons/science.svg"
+  teaser2: "posts/srtio3-2dels-twoofthem/srtio3-2dels-tio2.png"
+  teaser_position: "top-left"
+  teaser_size: 20
 ---
 
 

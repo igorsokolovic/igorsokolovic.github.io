@@ -7,58 +7,77 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
+
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 
 <div class="blog-intro" style="margin-bottom: 2em;">
 
   <p>
-  Welcome! Here I share my research, explain interesting scientific ideas, and occasionally write about personal milestones and everyday life in science.
+    Welcome! Here I share my research, explain interesting scientific ideas, and occasionally write about personal milestones and everyday life in science.
   </p>
 
   <p>
-  Some posts look back at earlier publications and achievements. I'm gradually building a record of my research, with the aim of sharing more frequent updates and glimpses of what happens behind the scenes.
+    Some posts look back at earlier publications and achievements. I'm gradually building a record of my research, with the aim of sharing more frequent updates and glimpses of what happens behind the scenes.
   </p>
-I use AI tools to help draft and edit posts, saving time while keeping the scientific content and responsibility my own. I'm aware and mindful of AI's environmental footprint, and one of my research goals is to help reduce it by developing more energy-efficient electronic components, bringing together fundamental physics and practical device development.
+
+  <p>
+    I use AI tools to help draft and edit posts, saving time while keeping the scientific content and responsibility my own. I'm aware and mindful of AI's environmental footprint, and one of my research goals is to help reduce it by developing more energy-efficient electronic components, bringing together fundamental physics and practical device development.
   </p>
-I hope you'll find some enjoyable reads!
+
+  <p>
+    I hope you'll find some enjoyable reads!
   </p>
 
 </div>
 
 {% for post in site.posts %}
+
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  <article class="blog-row">
 
-  <div class="blog-row-text">
-    <h3>
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h3>
+  {% assign main_teaser = post.header.teaser2 | default: post.header.teaser | default: "post-icons/science.svg" %}
+  {% assign category_teaser = post.header.teaser | default: "post-icons/science.svg" %}
 
-    {% if post.excerpt %}
-      <div class="blog-row-description">
-        {{ post.excerpt | markdownify }}
-      </div>
-    {% endif %}
-  </div>
+  {% assign main_teaser_url = main_teaser | prepend: "/images/" | relative_url %}
+  {% assign category_teaser_url = category_teaser | prepend: "/images/" | relative_url %}
 
-  <a class="blog-row-image" href="{{ post.url | relative_url }}">
-    {% assign thumbnail = post.header.teaser | default: "post-icons/science.svg" %}
-    {% assign thumbnail_path = thumbnail | prepend: "/images/" %}
-    <img src="{{ thumbnail_path | relative_url }}" alt="{{ post.title | escape }}">
-  </a>
+  <article class="blog-row{% if post.header.teaser2 %} has-teaser2{% endif %} teaser-pos-{{ post.header.teaser_position | default: 'bottom-right' }}" style="--mobile-teaser-size: {{ post.header.teaser_size | default: 20 }}%;">
 
-</article>
+    <a class="blog-row-image" href="{{ post.url | relative_url }}">
+      <img src="{{ main_teaser_url }}" alt="{{ post.title | escape }}">
+    </a>
+
+    <div class="blog-row-text">
+
+      <h3>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+
+      {% if post.excerpt %}
+        <div class="blog-row-description">
+          {{ post.excerpt | markdownify }}
+        </div>
+      {% endif %}
+
+    </div>
+
+    <a class="blog-row-image" href="{{ post.url | relative_url }}">
+      <img src="{{ category_teaser_url }}" alt="{{ post.title | escape }}">
+    </a>
+
+  </article>
+
 {% endfor %}
 
-
 <style>
+
 .blog-row {
   display: flex;
   align-items: center;
@@ -93,17 +112,4 @@ I hope you'll find some enjoyable reads!
   display: block;
 }
 
-@media (max-width: 500px) {
-  .blog-row {
-    gap: 12px;
-  }
-
-  .blog-row-image {
-    flex-basis: 95px;
-  }
-
-  .blog-row-image img {
-    height: 75px;
-  }
-}
 </style>
