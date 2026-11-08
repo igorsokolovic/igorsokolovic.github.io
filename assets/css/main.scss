@@ -210,3 +210,90 @@
 
 }
 
+
+
+/* =====================================================
+   RELATED POSTS: teaser2 with category teaser overlay
+   Applies on both desktop and mobile
+   ===================================================== */
+
+.page__related .related-teaser {
+  position: relative;
+  width: 100%;
+  max-height: none !important;
+  overflow: hidden;
+}
+
+/* Large main image */
+.page__related .related-teaser .related-teaser-main {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+/* Small overlaid category icon */
+.page__related .related-teaser .related-teaser-icon {
+  position: absolute !important;
+  width: var(--related-teaser-size, 20%) !important;
+  height: auto !important;
+  max-height: none !important;
+  display: block;
+
+  bottom: 6px;
+  right: 6px;
+  top: auto;
+  left: auto;
+
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  border-radius: 0;
+  box-shadow: none;
+  z-index: 2;
+}
+
+/* TOP LEFT */
+.page__related .related-teaser.teaser-pos-top-left .related-teaser-icon {
+  top: 6px;
+  left: 6px;
+  bottom: auto;
+  right: auto;
+}
+
+/* TOP CENTER */
+.page__related .related-teaser.teaser-pos-top-center .related-teaser-icon {
+  top: 6px;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+}
+
+/* TOP RIGHT */
+.page__related .related-teaser.teaser-pos-top-right .related-teaser-icon {
+  top: 6px;
+  right: 6px;
+  bottom: auto;
+  left: auto;
+}
+
+/* BOTTOM LEFT */
+.page__related .related-teaser.teaser-pos-bottom-left .related-teaser-icon {
+  bottom: 6px;
+  left: 6px;
+  top: auto;
+  right: auto;
+}
+
+/* BOTTOM CENTER */
+.page__related .related-teaser.teaser-pos-bottom-center .related-teaser-icon {
+  bottom: 6px;
+  left: 50%;
+  top: auto;
+  right: auto;
+  transform: translateX(-50%);
+}
+
+/* BOTTOM RIGHT is the default */

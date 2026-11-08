@@ -14,17 +14,40 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
+    {% if include.type == "grid" %}
+
+  {% if include.related_overlay %}
+
+    {% assign related_main = post.header.teaser2 | default: post.header.teaser | default: "post-icons/science.svg" %}
+    {% assign related_icon = post.header.teaser | default: "post-icons/science.svg" %}
+
+    {% assign related_main_url = related_main | prepend: "/images/" | relative_url %}
+    {% assign related_icon_url = related_icon | prepend: "/images/" | relative_url %}
+
+    <div class="archive__item-teaser related-teaser teaser-pos-{{ post.header.teaser_position | default: 'bottom-right' }}"
+         style="--related-teaser-size: {{ post.header.teaser_size | default: 20 }}%;">
+
+      <img class="related-teaser-main"
+           src="{{ related_main_url }}"
+           alt="{{ post.title | escape }}">
+
+      {% if post.header.teaser2 %}
+        <img class="related-teaser-icon"
+             src="{{ related_icon_url }}"
+             alt="">
+      {% endif %}
+
+    </div>
+
+  {% elsif teaser %}
+
+    <div class="archive__item-teaser">
+      <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="">
+    </div>
+
+  {% endif %}
+
+{% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
