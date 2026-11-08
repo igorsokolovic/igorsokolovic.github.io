@@ -7,6 +7,9 @@ permalink: /posts/2023-04-01-CleaningCeramics/
 excerpt: "When clean is nowhere near clean enough."
 header:
   teaser: "post-icons/lablife.svg"
+  teaser2: "posts/CleaningCeramics/ceramics.png"
+  teaser_position: "top-right"
+  teaser_size: 20
 ---
 
 
