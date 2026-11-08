@@ -8,7 +8,7 @@ excerpt: "What surface-sensitive techniques can miss."
 header:
   teaser: "post-icons/educational.svg"
   teaser2: "posts/srtio3-leedxps/srtio3-leedxps.png"
-  teaser_position: "top-right""
+  teaser_position: "top-right"
   teaser_size: 20
 ---
 

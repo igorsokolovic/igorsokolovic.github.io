@@ -7,6 +7,9 @@ permalink: /posts/2019-03-02-srtio3-polarity/
 excerpt: "Once polar, surface defects help compensate the electric field."
 header:
   teaser: "post-icons/educational.svg"
+  teaser2: "posts/srtio3-polarity/preview.png"
+  teaser_position: "top-left"
+  teaser_size: 15
 ---
 
 

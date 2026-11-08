@@ -8,6 +8,9 @@ permalink: /posts/2021-03-01-parabolas/
 excerpt: "Understanding the role of electrostatics in atomic force microscopy."
 header:
   teaser: "post-icons/educational.svg"
+  teaser2: "posts/parabolas/parabolas.png"
+  teaser_position: "bottom-left"
+  teaser_size: 25
 ---
 
 

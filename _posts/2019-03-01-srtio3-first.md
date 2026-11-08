@@ -7,6 +7,9 @@ permalink: /posts/2019-03-01-srtio3-first/
 excerpt: "When strain unlocks new crystal surfaces."
 header:
   teaser: "post-icons/science.svg"
+  teaser2: "posts/srtio3-first/preview.png"
+  teaser_position: "bottom-right"
+  teaser_size: 30
 ---
 
 

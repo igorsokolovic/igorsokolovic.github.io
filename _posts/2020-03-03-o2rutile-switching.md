@@ -7,6 +7,9 @@ permalink: /posts/2020-03-03-o2rutile-switching/
 excerpt: "Same outcome, different kinetics."
 header:
   teaser: "post-icons/science.svg"
+  teaser2: "posts/OxygenSwitching/preview.png"
+  teaser_position: "bottom-left"
+  teaser_size: 20
 ---
 
 

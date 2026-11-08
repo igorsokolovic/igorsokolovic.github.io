@@ -7,6 +7,9 @@ permalink: /posts/2020-03-01-o2rutile-chargestate/
 excerpt: "One or two?"
 header:
   teaser: "post-icons/science.svg"
+  teaser2: "posts/OxygenChargeState/preview.png"
+  teaser_position: "bottom-left"
+  teaser_size: 20
 ---
 
 <!--
