@@ -7,6 +7,9 @@ permalink: /posts/2026-06-02-srtio3-UV-detect/
 excerpt: "The first measurement reveals what the next one cannot."
 header:
   teaser: "post-icons/educational.svg"
+  teaser2: "posts/srtio3UV-detect/srtio3UV-detect.png"
+  teaser_position: "top-center"
+  teaser_size: 30
 ---
 
 

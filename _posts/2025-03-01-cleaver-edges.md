@@ -8,7 +8,7 @@ excerpt: "Why beveled edges make all the difference."
 header:
   teaser2: "posts/srtio3CleaverEdges/srtio3CleaverEdgesSelect.png"
   teaser: "post-icons/educational.svg"
-  teaser_position: "top-left"
+  teaser_position: "bottom-right"
   teaser_size: 30
 ---
 
