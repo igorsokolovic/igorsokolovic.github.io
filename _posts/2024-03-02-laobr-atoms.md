@@ -7,6 +7,9 @@ permalink: /posts/2024-03-02-laobr-atoms/
 excerpt: "Atomic resolution on remarkably small crystals."
 header:
   teaser: "post-icons/science.svg"
+  teaser2: "posts/LaOBr-atoms/laobr-preview.png"
+  teaser_position: "bottom-left"
+  teaser_size: 20
 ---
 
 
